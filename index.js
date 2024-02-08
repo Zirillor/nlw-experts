@@ -102,7 +102,7 @@ const perguntas = [
   //Numera as perguntas de começando do 1
   const totalDePerguntas = perguntas.length
   //Pega o span da div 'Acertos' para se tornar uma variável
-  const mostrarTotal = document.querySelector('#Acertos span')
+  const mostrarTotal = document.querySelector('#acertos, span')
   
   //loop ou laço de repetição
   for(const item of perguntas) {
